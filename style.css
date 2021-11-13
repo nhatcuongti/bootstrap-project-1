@@ -3,17 +3,8 @@
     padding: 0;
 }
 
-.containerFlex{
-
-    display:inline-flex;
-    border : solid 2px #ddd
+@media (min-width : 768px){
+    .new-input{
+        width:50%;
+    }
 }
-
-.rec1{
-    width:500px;
-}
-
-.rec2{
-    width:300px;
-}
-
